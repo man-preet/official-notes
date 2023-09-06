@@ -1,0 +1,45 @@
+.Navbar{
+  /* background: rgb(233,14,227);
+background: radial-gradient(at right top, rgba(233,14,227,1) 0%, rgb(221, 83, 217) 35%, rgba(97,223,249,1) 100%);
+ */
+
+ background-color: cornflowerblue;
+}
+
+.navbar-container{
+  background: transparent;
+}
+.navbar{
+  display:flex;
+  list-style: none;
+  width:90%;
+
+}
+.navbar-header{
+  display:flex;
+  justify-content:space-around;
+}
+.navbar li a{
+  text-decoration: none;
+  color:black;
+}
+.searchBox{
+  border-radius: 10px;
+  border-style:groove;
+  width:170%;
+  background: transparent;
+  
+}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
+@media screen and (min-width:896px)
+{
+   .navbar{width:100%;}
+   .bi-search{margin-left:30px;}
+}

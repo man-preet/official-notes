@@ -1,0 +1,39 @@
+.signIn {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+}
+.signIn-container {
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 450px;
+  
+  padding: 40px;
+  overflow: auto;
+
+}
+
+.grid-container {
+  display: inline-flex;
+  grid-template-columns: auto auto auto auto;
+  width: 50%;
+  padding:40px;
+
+}
+
+.grid-item2 {
+  background: rgb(35, 125, 235);
+  background: linear-gradient(
+    180deg,
+    rgba(35, 125, 235, 1) 35%,
+    rgba(97, 223, 249, 1) 100%
+  );
+  width: 50%;
+  margin-left: 55px;
+  overflow: auto;
+  object-fit: fill;
+}
